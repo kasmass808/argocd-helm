@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/kasmass808/helm-charts.git
+    repoURL: https://github.com/kasmass808/argocd-helm.git
     targetRevision: main
-    path: ./nginx
+    path: helm-charts/nginx
     helm:
       valueFiles:
         - values/minikube.yaml
